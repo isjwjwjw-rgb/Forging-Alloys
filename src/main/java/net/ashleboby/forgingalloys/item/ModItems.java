@@ -20,23 +20,9 @@ public class ModItems {
 		}
 		
 		public static class Fuels {
-				public static final DeferredItem<Item> STARLIGHT_ASHES = ITEMS.register("starlight_ashes",
-						() -> new Item(new Item.Properties()));
-		}
-		
-		public static class Foods {
-				public static final DeferredItem<Item> RADISH = ITEMS.register("radish",
-						() -> new Item(new Item.Properties().food(ModFoodProperties.RADISH)){
-								@Override
-								public void appendHoverText(ItemStack stack, TooltipContext context, List<Component> tooltipComponents, TooltipFlag tooltipFlag) {
-										tooltipComponents.add(Component.translatable("tooltip.thingsfordays.radish.tooltip"));
-										super.appendHoverText(stack, context, tooltipComponents, tooltipFlag);
-								}
-						});
 		}
 		
 		public static class Resource {
-				
 		}
 		
 		public static void register(IEventBus eventBus) {
