@@ -1,0 +1,13 @@
+{
+  "itemGroup.forgingalloys": "Example Mod Tab",
+  "block.forgingalloys.example_block": "Example Block",
+  "item.forgingalloys.example_item": "Example Item",
+
+  "forgingalloys.configuration.title": "Forging Alloys Configs",
+  "forgingalloys.configuration.section.forgingalloys.common.toml": "Forging Alloys Configs",
+  "forgingalloys.configuration.section.forgingalloys.common.toml.title": "Forging Alloys Configs",
+  "forgingalloys.configuration.items": "Item List",
+  "forgingalloys.configuration.logDirtBlock": "Log Dirt Block",
+  "forgingalloys.configuration.magicNumberIntroduction": "Magic Number Text",
+  "forgingalloys.configuration.magicNumber": "Magic Number"
+}
